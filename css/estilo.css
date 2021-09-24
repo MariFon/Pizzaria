@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../imagens/fundo.jpg");
+}
+
+.container {
+  width: 960px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #b22d00;
+  padding: 10px 20px;
+}
+
+.disk-entrega {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding-right: 10px;
+}
+
+.navegacao {
+  background-color: #d9a300;
+  padding: 10px 30px;
+}
+
+.menu-principal {
+  display: flex;
+  margin-right: 10px;
+}
+.menu-principal a {
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+  padding-right: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteudo {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+  font-size: 45px;
+}
+
+.linha {
+  list-style: none;
+  padding: 0;
+  column-count: 3;
+}
+
+.coluna {
+  column-count: 3;
+}
+.linha-pizza {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.coluna-pizza {
+  text-align: center;
+}
+
+.linha-menu {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.historia img {
+  float: left;
+}
+
+.coluna-historia {
+  width: 350px;
+}
+
+.titulo {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  padding-right: 10px;
+}
