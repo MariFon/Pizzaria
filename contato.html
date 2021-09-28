@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria</title>
+    <title>Contato Pizzaria</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-    
+    <main class="container">
+        <header class="cabecalho">
+            <h1>
+                <img src="imagens/logotipo.fw.png" alt="Logo Super Pizza">
+            </h1>
+
+            <h2 class="disk-entrega">
+                Disk entregas:<br>
+                (19)1234-5678
+            </h2>
+        </header>
+        <nav class="navegacao">
+            <ul class="menu-principal">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <div class="conteudo">
+            <h3>Entre em contato</h3>
+        </div>
+        <hr>
+        <div class="linha-contato">
+            <h1 class="titulos-contatos">Envie uma mensagem</h1>
+            <p class="p-contatos">Utilize o formulário de contato para enviar sua mensagem:</p>
+
+            <div class="formulario">
+                <p>
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="nome" id="nome" maxlength="15">
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input name="email" id="email" type:"email">
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </p>
+                <button type="submit">Enviar</button>
+            </div>
+
+            <table class="mapa">
+                <tr>
+                    <td>Mapa</td>
+                </tr>
+            </table>
+            
+            <h1 class="titulos-contatos">Endereço</h1>
+            <p class="p-contatos">Rua Teste, 123, Bairro Sede, Americana -SP</p>
+            <h1 class="titulos-contatos">E-mail</h1>
+            <p class="p-contatos">contato@superpizza.com.br</p>
+            <h1 class="titulos-contatos">Telefone</h1>
+            <p class="p-contatos">(19) 1234-5678</p>
+        </div>
+    </main>
 </body>
+<footer>
+    <h3>Aula do SENAC: Declaração de direitos autorais.</h3>
+</footer>
+
 </html>

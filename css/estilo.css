@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: sans-serif;
 }
 
@@ -7,6 +7,28 @@ body {
   background-image: url("../imagens/fundo.jpg");
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  height: 0,5px;
+  border-color: black;
+  background: black;
+  margin: 10px;
+}
+
+footer{
+  width: 960px;
+  height: 30px;
+  background-color: rgb(63, 61, 61);
+  margin: 0 auto;
+  color: white;
+  text-align: left;
+  text-indent: 30px;
+  padding-top: 15px;
+}
 .container {
   width: 960px;
   background-color: white;
@@ -43,21 +65,16 @@ body {
   padding-right: 10px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 .conteudo {
-  text-decoration: none;
   color: black;
-  padding-right: 10px;
+  padding: 10px;
   font-size: 45px;
+  /* text-align: left; */
 }
 
 .linha {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   column-count: 3;
 }
 
@@ -73,25 +90,126 @@ header {
 
 .coluna-pizza {
   text-align: center;
+  padding: 10px;
+  font-weight: bold;
 }
 
 .linha-menu {
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   display: flex;
 }
 
+.coluna-menu {
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+}
+
 .historia img {
   float: left;
+  padding-right: 10px;
+}
+
+.historia {
+  font-size: 15px;
 }
 
 .coluna-historia {
   width: 350px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .titulo {
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 30px;
   color: black;
-  padding-right: 10px;
+}
+
+.conheca {
+  color: red;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.titulos{
+  /* text-decoration: none; */
+  font-size: 30px;
+  /* color: black; */
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+.paragrafos{
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+  text-align: justify;
+
+}
+
+.linha-somos{
+  font-size: 20px;
+  /* list-style: none; */
+  padding: 10px;
+  column-count: 2;
+}
+
+.colunas-somos{
+  padding: 10px;
+  column-count: 2;
+}
+
+.linha-galeria{
+  /* display: flex; */
+  align-content: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.coluna-galeria{
+ /* como colocar distancia entre as fotos na vertical */
+   /* padding: 10px;  */
+}
+
+.coluna-galeria img{
+  float: left;
+  width: 40mm;
+  margin-bottom: 10px;
+}
+
+.titulos-contatos{
+  font-size: 30px;
+  padding-top: 10px;
+  margin-left: 20px;
+ }
+
+.p-contatos{
+  font-size: 15px;
+  padding: 20px;
+}
+
+.formulario{
+  padding: 20px;
+}
+
+.linha-contato{
+  font-size: 20px;
+  padding: 10px;
+  column-count: 2;
+}
+
+.coluna-contato{
+  padding: 10px;
+}
+
+.mapa{
+  border:1px solid;
+  tab-size: 300px 200px;
+}
+
+.mapa td{
+  border: 1px solid;
+  padding: 3px;
 }
